@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beruntime"
+version = "0.1.0"
+description = "Barrier Research Runtime (beruntime) — lightweight native C inference wrapper for Klorn hybrid models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Barrier Research" }
+]
+dependencies = [
+  "tokenizers>=0.15.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/barrier-ai/beruntime"
+"Model Weights" = "https://huggingface.co/brr-ai/Klorn-Tinystories-31M"
+
+[tool.setuptools.packages.find]
+include = ["beruntime", "beruntime.*"]
+
+[tool.setuptools.package-data]
+beruntime = ["_bin/*.dll", "_bin/*.so", "_bin/*.dylib"]

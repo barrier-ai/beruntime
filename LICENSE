@@ -1,0 +1,19 @@
+Barrier Research Evaluation License (barrier-eval-1.0)
+Copyright (c) 2026 Barrier Research. All rights reserved.
+
+This license governs the use of the Klorn-Tinystories-31M model weights, compiled runtime binaries, configuration files, and accompanying evaluation artifacts ("Model Artifacts") made available by Barrier Research.
+
+1. Grant of Non-Commercial Evaluation License
+Subject to the terms of this License, Barrier Research grants you a non-exclusive, non-transferable, revocable, royalty-free license to download, execute, and evaluate the Model Artifacts solely for non-commercial academic research, benchmarking, and technical evaluation.
+
+2. Restrictions
+You may NOT, directly or indirectly:
+(a) Use the Model Artifacts, or any derivative weights or outputs produced by them, for any commercial purpose, commercial product, paid API, or revenue-generating service.
+(b) Redistribute, sell, lease, sublicense, or publish the Model Artifacts or derivative checkpoints without prior written consent from Barrier Research.
+(c) Reverse engineer, extract, or reconstruct closed-source architectural code, gating formulations, or training recipes for commercial competition.
+
+3. Attribution
+Any publication, benchmark report, or evaluation referencing the Model Artifacts must cite Barrier Research as the developer of Klorn-Tinystories-31M and comply with the attribution terms of the upstream TinyStories dataset (cdla-sharing-1.0).
+
+4. Disclaimer of Warranty and Limitation of Liability
+THE MODEL ARTIFACTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NONINFRINGEMENT. IN NO EVENT SHALL BARRIER RESEARCH BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE MODEL ARTIFACTS.
